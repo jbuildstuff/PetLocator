@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dog" />
+
+    <LinearLayout
+        android:id="@+id/LocationDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/positionDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text= "@string/Location"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinLayout1"
+        android:layout_below="@+id/LocationDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:layout_marginStart="98dp"
+            android:text="Breed Type: " />
+        <Spinner
+            android:id="@+id/breedDropDown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LinLayout1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:layout_marginStart="20dp"
+            android:text="Dog Respond To:" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="7dp"
+            android:textSize="12dp"
+            android:ems="10"
+            android:hint="(Ex. Freddy)"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinLayout3"
+        android:layout_below="@+id/LinLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:text="Distinctive Features: " />
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="12dp"
+            android:layout_marginEnd="15dp"
+            android:ems="10"
+            android:hint="(Ex. Black mark)"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinLayout4"
+        android:layout_below="@+id/LinLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:textStyle="normal|bold"
+            android:text="Temperment Type:"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="NotSibling" />
+
+        <Spinner
+            android:id="@+id/temperamentDropDown"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:ems="10"></Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinLayout5"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/LinLayout4"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:text="@string/sign_of_health_issue"
+            tools:ignore="NotSibling" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="12dp"
+            android:layout_marginEnd="-1dp"
+            android:ems="10"
+            android:hint="@string/example_sign"
+            android:inputType="text" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/tothePhotoUpload"
+        android:layout_below="@+id/LinLayout5"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp"
+        android:text="Next"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+</RelativeLayout>

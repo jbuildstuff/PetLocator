@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".IdentifyPetActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/identify_the_animal"
+        android:background="@drawable/back"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/Line1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:layout_centerHorizontal="true" >
+
+        <ImageButton
+            android:id="@+id/imageView1"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog1" />
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog3" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Line2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Line1"
+        android:layout_centerHorizontal="true" >
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog4" />
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog5" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Line3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Line2"
+        android:layout_centerHorizontal="true" >
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog6" />
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog8" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Line4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Line3"
+        android:layout_centerHorizontal="true" >
+        <ImageButton
+            android:id="@+id/imageView7"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog9" />
+        <ImageButton
+            android:id="@+id/imageView8"
+            android:onClick="buttonOnClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog10" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Line5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Line4"
+        android:layout_centerHorizontal="true" >
+        <ImageButton
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog11" />
+        <ImageButton
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog12" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Line6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Line5"
+        android:layout_centerHorizontal="true" >
+        <ImageButton
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog13" />
+        <ImageButton
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:onClick="buttonOnClick"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog14" />
+    </LinearLayout>
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

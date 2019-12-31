@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="top"
+        android:src = "@drawable/dog"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/sawAPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/i_saw_an_animal"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:textAllCaps="false"
+            android:textSize="35sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sawAPet"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/timeline_gmaps_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_pet_s_sightings"
+            android:layout_centerInParent = "true"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:background="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/gmaps_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/i_lost_a_pet"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
