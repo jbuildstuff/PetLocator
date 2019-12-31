@@ -1,3 +1,5 @@
+## Summary
+
 Losing your furry friend is amongst the most heartbreaking things to experience as a pet owner. I
 t’s a time of stress and confusion, not knowing where to look or how to get the word out. 
 
@@ -5,6 +7,8 @@ On the other hand, as passers-by, if we see a little kitty caught in the rain, w
 
 Pet Locator is an attempt at a one-stop app to bridge this gap, with lost pets being published, and sightings being reported, all on the same platform.
 
-View the demo here!
+## Video Demo
+Click on the thumbnail below
 
-[![PETLOCATOR](https://img.https://youtu.be/636dxe5BwKY/0.jpg)](https://youtu.be/636dxe5BwKY "PETLOCATOR")
+[![PETLOCATOR](https://img.youtube.com/vi/636dxe5BwKY/0.jpg)](https://www.youtube.com/watch?v=636dxe5BwKY)
+
