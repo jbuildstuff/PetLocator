@@ -7,4 +7,4 @@ Pet Locator is an attempt at a one-stop app to bridge this gap, with lost pets b
 
 View the demo here!
 
-[![PETLOCATOR](https://img.youtu.be/636dxe5BwKY/0.jpg)](https://youtu.be/636dxe5BwKY "PETLOCATOR")
+[![PETLOCATOR](https://img.https://youtu.be/636dxe5BwKY/0.jpg)](https://youtu.be/636dxe5BwKY "PETLOCATOR")
